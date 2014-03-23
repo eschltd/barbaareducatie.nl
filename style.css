@@ -73,13 +73,13 @@ body a:hover {
     padding: 0 1em 0 0;
 }
 
-.navigation .links .spacer::before {
-    color: #fff;
-    font-size: 60%;
-    text-align: center;
-    content: "\2B24";
-    vertical-align: middle;
-    padding: 0 1em;
+.navigation .links .spacer {
+    background-image: url("images/helmet.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 12px;
+    margin-right: 1em;
+    height: 1em;
 }
 
 
