@@ -1,0 +1,15 @@
+[{
+    "created": "2014-03-25T07:00:00Z",
+    "image": "images/bblogo1.png",
+    "title": "Welkom",
+    "body": "welkom.html"
+}, {
+    "created": "2014-03-25T08:00:00Z",
+    "image": "images/middeleeuwse-stad.png",
+    "title": "Opdracht middeleeuwse stad",
+    "body": "opdracht-middeleeuwse-stad.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{middeleeuwsestadLink}"
+    }
+}]

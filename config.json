@@ -21,24 +21,25 @@
         "href": "{contactLink}"
     }],
     "paths": {
-        "news": "site-data/news",
+        "items": "site-data/items",
         "markdown": "site-data/markdown/",
         "resources": "resources/",
         "templates": "templates/",
         "output":   "output/"
     },
-    "homepage": {
-        "id": "homepage",
-        "type": "homepage",
-        "title": "Nieuws",
-        "newsItems": 5,
-        "output": "index.html"
-    },
     "content": [{
+        "id": "homepage",
+        "type": "list",
+        "title": "Nieuws",
+        "order": "desc",
+        "limit": 5,
+        "directory": "news",
+        "output": "index.html"
+    }, {
         "id": "producten",
-        "type": "basic",
+        "type": "list",
         "title": "Producten",
-        "markdown": "producten.md",
+        "directory": "producten",
         "output": "producten.html"
     }, {
         "id": "projecten",
@@ -64,5 +65,11 @@
         "title": "Contact",
         "markdown": "contact.md",
         "output": "contact.html"
+    }, {
+        "id": "middeleeuwsestad",
+        "type": "basic",
+        "title": "Opdracht middeleeuwse stad",
+        "markdown": "middeleeuwse-stad.md",
+        "output": "middeleeuwse-stad.html"
     }]
 }
