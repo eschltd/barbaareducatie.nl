@@ -1,9 +1,10 @@
 var console = require("console")
 var extend = require("xtend")
 var fs = require("fs")
-var path = require("path")
+var minify = require("html-minifier").minify
 var mkdirp = require("mkdirp")
 var ncp = require("ncp")
+var path = require("path")
 var render = require("string-template")
 var rmdir = require("rmdir")
 
@@ -41,9 +42,10 @@ function generateSite(err) {
     // Generate the pages
     content.forEach(function (page) {
         var html = render(layout, extend(layoutData, pageData[page.type](page)))
-        fs.writeFile(path.join(outDir, page.output), html, {
-            flag: "w"
-        })
+        fs.writeFile(path.join(outDir, page.output), minify(html, {
+            removeComments: true,
+            collapseWhitespace: true
+        }))
     })
 
     // Copy the site resources to the output directory
