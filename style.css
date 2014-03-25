@@ -1,4 +1,4 @@
-html {
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -11,6 +11,7 @@ html {
 
 body {
     min-height: 100%;
+    height: auto;
     width: 960px;
     margin: 0 auto 0 auto;
     background-color: #D3CDC5;
@@ -74,7 +75,7 @@ body a:hover {
     padding: 0 1em 0 0;
 }
 
-.navigation .links .spacer {
+.navigation .links .separator {
     background-image: url("images/helmet.png");
     background-position: center center;
     background-repeat: no-repeat;
