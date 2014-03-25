@@ -1,0 +1,68 @@
+{
+    "baseURI": "",
+    "primaryLinks": [{
+        "text": "{homepageTitle}",
+        "href": "{homepageLink}"
+    }, {
+        "text": "{productenTitle}",
+        "href": "{productenLink}"
+    }, {
+        "text": "{projectenTitle}",
+        "href": "{projectenLink}"
+    }, {
+        "text": "{artikelenTitle}",
+        "href": "{artikelenLink}"
+    }, {
+        "text": "{overbarbaarTitle}",
+        "href": "{overbarbaarLink}"
+    }],
+    "secondaryLinks": [{
+        "text": "{contactTitle}",
+        "href": "{contactLink}"
+    }],
+    "paths": {
+        "news": "site-data/news",
+        "markdown": "site-data/markdown/",
+        "resources": "resources/",
+        "templates": "templates/",
+        "output":   "output/"
+    },
+    "homepage": {
+        "id": "homepage",
+        "type": "homepage",
+        "title": "Nieuws",
+        "newsItems": 5,
+        "output": "index.html"
+    },
+    "content": [{
+        "id": "producten",
+        "type": "basic",
+        "title": "Producten",
+        "markdown": "producten.md",
+        "output": "producten.html"
+    }, {
+        "id": "projecten",
+        "type": "basic",
+        "title": "Projecten",
+        "markdown": "projecten.md",
+        "output": "projecten.html"
+    }, {
+        "id": "artikelen",
+        "type": "basic",
+        "title": "Artikelen",
+        "markdown": "artikelen.md",
+        "output": "artikelen.html"
+    }, {
+        "id": "overbarbaar",
+        "type": "basic",
+        "title": "Over Barbaar",
+        "markdown": "overbarbaar.md",
+        "output": "over-barbaar.html"
+    }, {
+        "id": "contact",
+        "type": "basic",
+        "title": "Contact",
+        "markdown": "contact.md",
+        "output": "contact.html"
+    }]
+}
