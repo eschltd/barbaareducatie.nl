@@ -4,7 +4,7 @@ Site generator for barbaareducatie.nl
 
 ## run
 
-`npm run`
+`node index.js`
 
 ## Installation
 

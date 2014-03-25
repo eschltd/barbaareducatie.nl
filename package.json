@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "Site generator for barbaareducatie.nl",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/eschltd/barbaareducatie.nl"
