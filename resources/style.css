@@ -90,7 +90,7 @@ body a:hover {
     overflow-y: auto;
 }
 
-.newsitem {
+.pagetext {
     position: relative;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.5);
@@ -100,22 +100,48 @@ body a:hover {
     margin-bottom: 2em;
 }
 
-.newsitem .newsimage {
+.listitem .listimage {
     width: 160px;
     float: left;
     margin-right: 18px;
 }
 
-.newsitem h2 {
+.listitem h2 {
     margin-top: 8px;
     margin-bottom: 8px;
     padding: 0;
     font-size: 1.2em;
 }
 
-.newsitem .more {
+.listitem .more {
     position: absolute;
     display: block;
     bottom: 18px;
     left: 178px;
+}
+
+.product {
+    padding: 1em;
+}
+
+.product-link {
+    display: block;
+    margin-top: 3em;
+}
+
+.product-images {
+    text-align: justify;
+}
+
+.product-images .product-image {
+    display: inline;
+}
+
+.fulljustify {
+    text-align:justify;
+}
+.fulljustify:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
 }

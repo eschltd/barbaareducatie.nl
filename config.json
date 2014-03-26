@@ -67,9 +67,23 @@
         "output": "contact.html"
     }, {
         "id": "middeleeuwsestad",
-        "type": "basic",
+        "type": "product",
         "title": "Opdracht middeleeuwse stad",
+        "onderwerp": "De middeleeuwse stad",
+        "niveau": "basisschool, eerste klas TL/H/V",
+        "werkvorm": "groepswerk",
+        "auteur": "Hayo van Reek",
         "markdown": "middeleeuwse-stad.md",
+        "download": {
+            "href": "http://hayovanreek.nl",
+            "text": "Download product"
+        },
+        "images": [
+            "images/mes1.png",
+            "images/mes2.png",
+            "images/mes3.png",
+            "images/mes4.png"
+        ],
         "output": "middeleeuwse-stad.html"
     }]
 }
