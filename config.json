@@ -21,7 +21,8 @@
         "href": "{contactLink}"
     }],
     "paths": {
-        "items": "site-data/items",
+        "items": "site-data/items/",
+        "html": "site-data/html/",
         "markdown": "site-data/markdown/",
         "resources": "resources/",
         "templates": "templates/",
@@ -55,9 +56,9 @@
         "output": "artikelen.html"
     }, {
         "id": "overbarbaar",
-        "type": "basic",
-        "title": "Over Barbaar",
-        "markdown": "overbarbaar.md",
+        "type": "html",
+        "title": "Over Barbaar Educatie",
+        "html": "over-barbaar.html",
         "output": "over-barbaar.html"
     }, {
         "id": "contact",

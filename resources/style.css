@@ -45,6 +45,8 @@ body a:hover {
     height: auto;
     overflow-y: auto;
     padding: 1em 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -85,7 +87,7 @@ body a:hover {
 }
 
 .content {
-    padding: 1em 2em;
+    padding: 1em 2em 5em 2em;
     height: auto;
     overflow-y: auto;
 }
@@ -97,7 +99,7 @@ body a:hover {
     height: auto;
     overflow-y: auto;
     padding-right: 18px;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .listitem .listimage {
@@ -120,23 +122,23 @@ body a:hover {
     left: 178px;
 }
 
-.product {
+.pagetext.basic {
     padding: 1em;
 }
 
-.product dl {
+.pagetext.basic dl {
     height: auto;
     overflow-y: auto;
 }
 
-.product dt {
+.pagetext.basic dt {
     clear: left;
     float: left;
     font-weight: bold;
     width: 5em;
 }
 
-.product dd {
+.pagetext.basic dd {
     float: left;
 }
 
@@ -160,4 +162,40 @@ body a:hover {
     content: "";
     display: inline-block;
     width: 100%;
+}
+
+.caption-list .list-item {
+    float: left;
+    width: 50%;
+    margin-bottom: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.caption-list .list-item.left {
+    padding-right: 0.5em;
+    clear: both;
+}
+
+.caption-list .list-item.right {
+    padding-left: 0.5em;
+}
+
+.caption-list .list-item .item-background {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    overflow-y: auto;
+}
+
+.caption-list .list-item .item-image {
+    width: 128px;
+    height: 144px;
+    float: left;
+    margin-right: 1em;
+}
+
+.caption-list .list-item .item-caption {
+    padding: 1em;
 }
