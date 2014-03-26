@@ -124,6 +124,22 @@ body a:hover {
     padding: 1em;
 }
 
+.product dl {
+    height: auto;
+    overflow-y: auto;
+}
+
+.product dt {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    width: 5em;
+}
+
+.product dd {
+    float: left;
+}
+
 .product-link {
     display: block;
     margin-top: 3em;
