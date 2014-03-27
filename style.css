@@ -135,7 +135,9 @@ body a:hover {
     clear: left;
     float: left;
     font-weight: bold;
-    width: 5em;
+    width: 80px;
+    padding: 0;
+    margin: 0;
 }
 
 .pagetext.basic dd {
