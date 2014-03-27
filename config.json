@@ -88,9 +88,19 @@
         "output": "middeleeuwse-stad.html"
     }, {
         "id": "millo",
-        "type": "html",
+        "type": "product",
         "title": "Millo",
-        "html": "millo.html",
-        "output": "millo.html"
+        "onderwerp": "Alle tijdvakken",
+        "niveau": "basisschool, onderbouw voortgezet onderwijs",
+        "werkvorm": "klassikaal",
+        "auteur": "Hayo van Reek, Frank Menzel, Matt Esch",
+        "markdown": "millo.md",
+        "images": [
+            "images/millothumb1.png",
+            "images/millothumb2.png",
+            "images/millothumb3.png",
+            "images/millothumb4.png"
+        ],
+        "output": "middeleeuwse-stad.html"
     }]
 }
