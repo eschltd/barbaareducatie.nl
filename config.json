@@ -44,9 +44,9 @@
         "output": "producten.html"
     }, {
         "id": "projecten",
-        "type": "basic",
+        "type": "list",
         "title": "Projecten",
-        "markdown": "projecten.md",
+        "directory": "projecten",
         "output": "projecten.html"
     }, {
         "id": "artikelen",
@@ -86,5 +86,11 @@
             "images/mes4.png"
         ],
         "output": "middeleeuwse-stad.html"
+    }, {
+        "id": "millo",
+        "type": "html",
+        "title": "Millo",
+        "html": "millo.html",
+        "output": "millo.html"
     }]
 }

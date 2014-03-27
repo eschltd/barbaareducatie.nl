@@ -1,0 +1,10 @@
+[{
+    "created": "2014-03-27T19:00:00Z",
+    "image": "images/millothumb1.png",
+    "title": "Millo",
+    "body": "millo.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{milloLink}"
+    }
+}]
