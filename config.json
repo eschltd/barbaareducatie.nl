@@ -95,12 +95,19 @@
         "werkvorm": "klassikaal",
         "auteur": "Hayo van Reek, Frank Menzel, Matt Esch",
         "markdown": "millo.md",
-        "images": [
-            "images/millothumb1.png",
-            "images/millothumb2.png",
-            "images/millothumb3.png",
-            "images/millothumb4.png"
-        ],
-        "output": "middeleeuwse-stad.html"
+        "images": [{
+            "thumb": "images/millothumb1.png",
+            "image": "images/millo1.png"
+        }, {
+            "thumb": "images/millothumb2.png",
+            "image": "images/millo2.png"
+        }, {
+            "thumb": "images/millothumb3.png",
+            "image": "images/millo3.png"
+        }, {
+            "thumb": "images/millothumb4.png",
+            "image": "images/millo4.png"
+        }],
+        "output": "millo.html"
     }]
 }
