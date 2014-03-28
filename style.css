@@ -5,6 +5,7 @@ html, body {
     height: 100%;
     text-align: center;
     background-color: #fff;
+    background-image: url("images/bbbg.png");
     overflow-y: auto;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
