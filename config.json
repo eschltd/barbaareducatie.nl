@@ -18,7 +18,7 @@
     }],
     "secondaryLinks": [{
         "text": "{contactTitle}",
-        "href": "{contactLink}"
+        "href": "mailto:info@barbaareducatie.nl"
     }],
     "paths": {
         "items": "site-data/items/",
