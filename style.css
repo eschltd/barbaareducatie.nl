@@ -6,6 +6,8 @@ html, body {
     text-align: center;
     background-color: #fff;
     background-image: url("images/bbbg.png");
+    background-position: top center;
+    background-attachment: fixed;
     overflow-y: auto;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
