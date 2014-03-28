@@ -152,6 +152,11 @@ body a img {
     float: left;
 }
 
+.pagetext.basic.message {
+    text-align: center;
+    padding: 4em;
+}
+
 .product-link {
     display: block;
     margin-top: 3em;
