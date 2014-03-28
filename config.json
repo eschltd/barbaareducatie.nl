@@ -50,9 +50,9 @@
         "output": "projecten.html"
     }, {
         "id": "artikelen",
-        "type": "basic",
+        "type": "html",
         "title": "Artikelen",
-        "markdown": "artikelen.md",
+        "html": "no-data.html",
         "output": "artikelen.html"
     }, {
         "id": "overbarbaar",
