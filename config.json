@@ -44,9 +44,9 @@
         "output": "producten.html"
     }, {
         "id": "projecten",
-        "type": "list",
+        "type": "html",
         "title": "Projecten",
-        "directory": "projecten",
+        "html": "no-projects.html",
         "output": "projecten.html"
     }, {
         "id": "artikelen",

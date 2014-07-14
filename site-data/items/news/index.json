@@ -12,4 +12,13 @@
         "text": "Klik hier voor meer informatie",
         "href": "{middeleeuwsestadLink}"
     }
+}, {
+    "created": "2014-07-14T10:00:00Z",
+    "image": "images/millothumbnews.png",
+    "title": "Millo",
+    "body": "millo.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{milloLink}"
+    }
 }]
