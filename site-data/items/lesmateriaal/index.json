@@ -1,0 +1,28 @@
+[{
+    "created": "2015-01-05T16:30:00Z",
+    "image": "images/gbpic1.png",
+    "title": "De Griekse bestuursvormen",
+    "body": "griekse-bestuursvormen.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{grieksebestuursvormenLink}"
+    }
+}, {
+    "created": "2014-03-25T08:00:00Z",
+    "image": "images/middeleeuwse-stad.png",
+    "title": "Opdracht middeleeuwse stad",
+    "body": "opdracht-middeleeuwse-stad.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{middeleeuwsestadLink}"
+    }
+}, {
+    "created": "2014-07-14T10:00:00Z",
+    "image": "images/millothumb1.png",
+    "title": "Millo",
+    "body": "millo.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{milloLink}"
+    }
+}]

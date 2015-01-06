@@ -4,8 +4,8 @@
         "text": "{homepageTitle}",
         "href": "{homepageLink}"
     }, {
-        "text": "{productenTitle}",
-        "href": "{productenLink}"
+        "text": "{lesmateriaalTitle}",
+        "href": "{lesmateriaalLink}"
     }, {
         "text": "{projectenTitle}",
         "href": "{projectenLink}"
@@ -37,11 +37,11 @@
         "directory": "news",
         "output": "index.html"
     }, {
-        "id": "producten",
+        "id": "lesmateriaal",
         "type": "list",
-        "title": "Producten",
-        "directory": "producten",
-        "output": "producten.html"
+        "title": "Lesmateriaal",
+        "directory": "lesmateriaal",
+        "output": "lesmateriaal.html"
     }, {
         "id": "projecten",
         "type": "html",
@@ -109,5 +109,25 @@
             "image": "images/millo4.png"
         }],
         "output": "millo.html"
+    }, {
+        "id": "grieksebestuursvormen",
+        "type": "product",
+        "title": "Rollenspel Griekse bestuursvormen",
+        "onderwerp": "De Griekse bestuursvormen",
+        "niveau": "Eerste klas H/V",
+        "werkvorm": "Rollenspel",
+        "auteur": "Frank Menzel (tekst) en Hayo van Reek (tekeningen)",
+        "markdown": "griekse-bestuursvormen.md",
+        "download": {
+            "href": "http://www.barbaareducatie.nl/materiaal/Grieksebestuursvormen.pdf",
+            "text": "Download (1MB)"
+        },
+        "images": [
+            "images/gbpic1.png",
+            "images/gbpic2.png",
+            "images/gbpic3.png",
+            "images/gbpic4.png"
+        ],
+        "output": "griekse-bestuursvormen.html"
     }]
 }

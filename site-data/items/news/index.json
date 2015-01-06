@@ -21,4 +21,13 @@
         "text": "Klik hier voor meer informatie",
         "href": "{milloLink}"
     }
+}, {
+    "created": "2015-01-06T16:30:00Z",
+    "image": "images/gbpic1.png",
+    "title": "Rollenspel Griekse bestuursvormen",
+    "body": "griekse-bestuursvormen.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{grieksebestuursvormenLink}"
+    }
 }]

@@ -18,6 +18,8 @@ var config = require("./config.json")
 var layout = template("layout.html")
 var outDir = path.join(__dirname, config.paths.output)
 
+debugger;
+
 fs.exists(outDir, function (exists) {
     if (exists) {
         rmdir(outDir, makeOutput)
