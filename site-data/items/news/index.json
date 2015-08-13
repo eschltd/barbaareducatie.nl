@@ -30,4 +30,13 @@
         "text": "Klik hier voor meer informatie",
         "href": "{grieksebestuursvormenLink}"
     }
+}, {
+    "created": "2015-08-13:00:00Z",
+    "image": "images/blpic1.png",
+    "title": "Brief aan Lodewijk XVI",
+    "body": "lodewijk-xvi.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{lodewijkxviLink}"
+    }
 }]

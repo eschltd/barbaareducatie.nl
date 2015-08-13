@@ -129,5 +129,25 @@
             "images/gbpic4.png"
         ],
         "output": "griekse-bestuursvormen.html"
+    }, {
+        "id": "lodewijkxvi",
+        "type": "product",
+        "title": "Brief aan Lodewijk XVI",
+        "onderwerp": "Standensamenleving",
+        "niveau": "Tweede klas HAVO/VWO",
+        "werkvorm": "Brief",
+        "auteur": "Ad Lankhaar (tekst) en Hayo van Reek (tekeningen)",
+        "markdown": "lodewijk-xvi.md",
+        "download": {
+            "href": "http://www.barbaareducatie.nl/materiaal/BriefaanLodewijkXVI.pdf",
+            "text": "Download (700kb)"
+        },
+        "images": [
+            "images/blpic1.png",
+            "images/blpic2.png",
+            "images/blpic3.png",
+            "images/blpic4.png"
+        ],
+        "output": "lodewijk-xvi.html"
     }]
 }

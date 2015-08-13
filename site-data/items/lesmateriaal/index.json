@@ -1,13 +1,4 @@
 [{
-    "created": "2015-01-05T16:30:00Z",
-    "image": "images/gbpic1.png",
-    "title": "De Griekse bestuursvormen",
-    "body": "griekse-bestuursvormen.html",
-    "link": {
-        "text": "Klik hier voor meer informatie",
-        "href": "{grieksebestuursvormenLink}"
-    }
-}, {
     "created": "2014-03-25T08:00:00Z",
     "image": "images/middeleeuwse-stad.png",
     "title": "Opdracht middeleeuwse stad",
@@ -24,5 +15,23 @@
     "link": {
         "text": "Klik hier voor meer informatie",
         "href": "{milloLink}"
+    }
+}, {
+    "created": "2015-01-05T16:30:00Z",
+    "image": "images/gbpic1.png",
+    "title": "De Griekse bestuursvormen",
+    "body": "griekse-bestuursvormen.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{grieksebestuursvormenLink}"
+    }
+}, {
+    "created": "2015-08-13:00:00Z",
+    "image": "images/blpic1.png",
+    "title": "Brief aan Lodewijk XVI",
+    "body": "lodewijk-xvi.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{lodewijkxviLink}"
     }
 }]
