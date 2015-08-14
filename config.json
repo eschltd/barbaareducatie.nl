@@ -140,7 +140,7 @@
         "markdown": "lodewijk-xvi.md",
         "download": {
             "href": "http://www.barbaareducatie.nl/materiaal/BriefaanLodewijkXVI.pdf",
-            "text": "Download (700kb)"
+            "text": "Download (700kB)"
         },
         "images": [
             "images/blpic1.png",
@@ -149,5 +149,24 @@
             "images/blpic4.png"
         ],
         "output": "lodewijk-xvi.html"
+    }, {
+        "id": "prehistoriearcheologie",
+        "type": "product",
+        "title": "Prehistorie-archeologie",
+        "onderwerp": "Prehistorie, archeologie",
+        "niveau": "Eerste klas T/H/V",
+        "werkvorm": "Groepsopdracht",
+        "auteur": "Hayo van Reek",
+        "markdown": "prehistorie-archeologie.md",
+        "download": {
+            "href": "http://www.barbaareducatie.nl/materiaal/prehistorie.pdf",
+            "text": "Download (1,3MB)"
+        },
+        "images": [
+            "images/pa01.png",
+            "images/pa02.png",
+            "images/pa03.png"
+        ],
+        "output": "prehistorie-archeologie.html"
     }]
 }

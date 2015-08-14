@@ -31,12 +31,21 @@
         "href": "{grieksebestuursvormenLink}"
     }
 }, {
-    "created": "2015-08-13:00:00Z",
+    "created": "2015-08-13T00:00:00Z",
     "image": "images/blpic1.png",
     "title": "Brief aan Lodewijk XVI",
     "body": "lodewijk-xvi.html",
     "link": {
         "text": "Klik hier voor meer informatie",
         "href": "{lodewijkxviLink}"
+    }
+}, {
+    "created": "2015-08-14T00:00:00Z",
+    "image": "images/pa01.png",
+    "title": "Prehistorie-archeologie",
+    "body": "prehistorie-archeologie.html",
+    "link": {
+        "text": "Klik hier voor meer informatie",
+        "href": "{prehistoriearcheologieLink}"
     }
 }]
