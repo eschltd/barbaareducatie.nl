@@ -227,3 +227,32 @@ html, body {
     right: 0;
     font-size: 0.8em;
 }
+
+
+#twitter-widget-0 {
+    vertical-align: middle;
+}
+
+.facebook-button {
+    width: 29px;
+    height: 29px;
+    background-image: url("images/fbbb.png");
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.youtube-button {
+    width: 35px;
+    height: 29px;
+    background-image: url("images/ytbb.png");
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 0px;
+    padding: 0px;
+}

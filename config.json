@@ -44,9 +44,11 @@
         "output": "lesmateriaal.html"
     }, {
         "id": "projecten",
-        "type": "html",
+        "type": "list",
         "title": "Projecten",
-        "html": "no-projects.html",
+        "order": "desc",
+        "limit": 5,
+        "directory": "projecten",
         "output": "projecten.html"
     }, {
         "id": "artikelen",
@@ -168,5 +170,28 @@
             "images/pa03.png"
         ],
         "output": "prehistorie-archeologie.html"
+    }, {
+        "id": "epoch",
+        "type": "product",
+        "title": "Epoch",
+        "onderwerp": "alle tijdvakken",
+        "niveau": "basisschool, onderbouw T/H/V",
+        "werkvorm": "klassikaal",
+        "auteur": "Hayo van Reek",
+        "markdown": "epoch.md",
+        "images": [{
+            "thumb": "images/epochthumb1.png",
+            "image": "images/epoch01.png"
+        }, {
+            "thumb": "images/epochthumb2.png",
+            "image": "images/epoch02.png"
+        }, {
+            "thumb": "images/epochthumb3.png",
+            "image": "images/epoch03.png"
+        }, {
+            "thumb": "images/epochthumb4.png",
+            "image": "images/epoch04.png"
+        }],
+        "output": "epoch.html"
     }]
 }
