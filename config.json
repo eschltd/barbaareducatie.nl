@@ -44,11 +44,9 @@
         "output": "lesmateriaal.html"
     }, {
         "id": "projecten",
-        "type": "list",
+        "type": "html",
         "title": "Projecten",
-        "order": "desc",
-        "limit": 5,
-        "directory": "projecten",
+        "html": "no-data.html",
         "output": "projecten.html"
     }, {
         "id": "artikelen",
@@ -177,20 +175,20 @@
         "onderwerp": "alle tijdvakken",
         "niveau": "basisschool, onderbouw T/H/V",
         "werkvorm": "klassikaal",
-        "auteur": "Hayo van Reek",
+        "auteur": "Hayo van Reek en Patrick Kortleven",
         "markdown": "epoch.md",
         "images": [{
-            "thumb": "images/epochthumb1.png",
-            "image": "images/epoch01.png"
+            "thumb": "images/epoch2_thumb1.png",
+            "image": "images/epoch2_01.png"
         }, {
-            "thumb": "images/epochthumb2.png",
-            "image": "images/epoch02.png"
+            "thumb": "images/epoch2_thumb2.png",
+            "image": "images/epoch2_02.png"
         }, {
-            "thumb": "images/epochthumb3.png",
-            "image": "images/epoch03.png"
+            "thumb": "images/epoch2_thumb3.png",
+            "image": "images/epoch2_03.png"
         }, {
-            "thumb": "images/epochthumb4.png",
-            "image": "images/epoch04.png"
+            "thumb": "images/epoch2_thumb4.png",
+            "image": "images/epoch2_04.png"
         }],
         "output": "epoch.html"
     }]
